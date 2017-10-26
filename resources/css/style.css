@@ -255,6 +255,7 @@
     .footer a:hover {
         background-color: rgba(128, 128, 128, 0.27);
         text-decoration: none;
+        border-radius: 10px;
     }
     
     #copy {
