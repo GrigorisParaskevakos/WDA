@@ -29,6 +29,10 @@
     h5 {
         color: lightskyblue;
     }
+    
+    .card-block {
+        margin-bottom: 3%;
+    }
     /* Bootstrap Overrides */
     
     .jumbotron {
@@ -149,10 +153,9 @@
     }
     
     .fa {
-        color: white;
-        width: 1em;
-        margin: 0 auto;
-        padding: 6px;
+        color: #fdfbfb;
+        width: 0.857em;
+        margin: 5px;
     }
     
     #main-skill {
@@ -161,16 +164,29 @@
         padding: 5%;
     }
     
+    .persent {
+        padding: 1%;
+    }
+    
     #main-client {
         background-color: rgb(215, 70, 128);
         color: white;
         padding: 5%;
+    }
+    
+    .images {
+        padding: 0!important;
+    }
+    
+    .comments {
+        display: inline-flex;
     }
     /* circle progress bars */
     
     .bold {
         font-family: "Zona Pro Bold";
         font-size: 1.2em;
+        margin-top: 1em;
     }
     /*contact form*/
     
