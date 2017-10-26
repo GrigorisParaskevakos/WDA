@@ -96,7 +96,7 @@
     }
     /*button*/
     
-    #awsome {
+    #awesome {
         background-color: rgb(235, 125, 75);
         border-color: transparent;
         margin-top: 5%;
@@ -104,8 +104,9 @@
         font-family: "Zona Pro Bold";
     }
     
-    #awsome:hover {
+    #awesome:hover {
         border-bottom: 5px solid rgb(200, 106, 64);
+        padding-top: 6px;
     }
     /*Main Section */
     
@@ -129,6 +130,29 @@
         background-color: rgb(231, 241, 248);
         color: black;
         padding: 5%;
+    }
+    
+    .card a {
+        color: white!important;
+        background-color: rgba(128, 128, 128, 0.678);
+        font-size: 1.7em;
+        padding: 1%;
+        margin-right: 1em;
+        border-radius: 50%;
+        text-decoration: none!important;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
+    
+    .card a:active {
+        text-decoration: none!important;
+    }
+    
+    .fa {
+        color: white;
+        width: 1em;
+        margin: 0 auto;
+        padding: 6px;
     }
     
     #main-skill {
@@ -205,21 +229,16 @@
         padding: 2%;
     }
     
-    .footer a,
-    .card a {
+    .footer a {
         color: white!important;
         font-size: 1.7em;
         padding: 1%;
         font-family: "Zona Pro";
     }
     
-    .footer a:hover,
-    .card a:hover {
+    .footer a:hover {
         background-color: rgba(128, 128, 128, 0.27);
         text-decoration: none;
-        border-radius: 50%;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
     }
     
     #copy {
