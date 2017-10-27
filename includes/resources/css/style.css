@@ -258,13 +258,12 @@
         color: white!important;
         font-size: 1.7em;
         padding: 1%;
-        font-family: "Zona Pro";
+        font-family: "Zona Pro Bold";
     }
     
     .footer a:hover {
-        background-color: rgba(128, 128, 128, 0.27);
         text-decoration: none;
-        border-radius: 10px;
+        color: rgba(48, 186, 231, 1)!important;
     }
     
     #copy {
