@@ -175,11 +175,20 @@
     }
     
     .images {
-        padding: 0!important;
+        padding: 0em!important;
     }
     
     .comments {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
         display: inline-flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .text-left {
+        padding: 10%;
     }
     /* circle progress bars */
     
@@ -321,6 +330,6 @@
             display: block;
         }
         .mobile a {
-            margin: 0 10px;
+            margin: 0 4px;
         }
     }
