@@ -77,6 +77,12 @@
         float: left;
     }
     
+    img#wda:hover {
+        background-color: #87509c;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+    
     .container ul {
         float: right;
     }
